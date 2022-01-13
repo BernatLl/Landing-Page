@@ -1,0 +1,31 @@
+body {
+    background-color: darkred;
+}
+
+.navbar {
+    background-color: darkred !important;
+}
+.nav-link {
+    color: white !important;
+}
+.navbar-light {
+    color: whitesmoke !important;
+}
+.navbar-brand {
+    padding-left: 20%;
+    color: white !important;
+    font-family: 'Italianno', cursive;
+    font-size: 50pt;
+}
+.contact {
+    padding: 5%;
+    color: white !important;
+    font-family: 'Italianno', cursive;
+    font-size: 20pt;
+    
+}
+.location {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

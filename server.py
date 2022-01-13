@@ -3,13 +3,13 @@ try:
     from flask import Flask
     from flask import send_from_directory
 except ImportError:
-    print("You don't have Flask installed, run $ pip3 install flask and try again")
+    print("You don't have Flask installed, run `$ pip3 install flask` and try again")
     exit(1)
 
 import os, subprocess
 
-static_file_dir = os.path.join(os.path.dirname(os.path.realpath(file)), './')
-app = Flask(name)
+static_file_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), './')
+app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0 #disable cache
 
 # Serving the index file
