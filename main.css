@@ -29,3 +29,28 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+.location iframe{
+    padding: 2%;
+}
+.btn-primary {
+    width: 20%;
+    font-size: 20pt;
+}
+.socialmedia {
+    
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 30%;
+}
+.socialmedia a, .socialmedia h4{
+    margin-left: 20%;
+    
+}
+i {
+    font-size: 30pt;
+}
+#cont {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
