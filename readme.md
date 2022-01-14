@@ -1,8 +1,5 @@
-# 
+Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
 
-## Realización.
-
-
-Para la ejecución del proyecto en el navegador hay que ejecutar en la terminal:
-
-   $ pip3 install flask && python3 server.py
+```sh
+$ pip3 install flask && python3 server.py
+```
